@@ -1,0 +1,52 @@
+{
+  "name": "zarezerwujto-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check build-only",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@date-fns/tz": "1.5.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "pinia": "^4.0.2",
+    "vue": "3.6.0-rc.4",
+    "vue-router": "^5.2.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "npm-run-all2": "^9.0.2",
+    "prettier": "3.9.5",
+    "typescript": "5.9.3",
+    "vite": "^8.1.5",
+    "vite-plugin-vue-devtools": "^8.1.5",
+    "vue-tsc": "^3.3.7"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "overrides": {
+    "vue": "3.6.0-rc.4",
+    "@vue/compiler-core": "3.6.0-rc.4",
+    "@vue/compiler-dom": "3.6.0-rc.4",
+    "@vue/compiler-sfc": "3.6.0-rc.4",
+    "@vue/compiler-ssr": "3.6.0-rc.4",
+    "@vue/compiler-vapor": "3.6.0-rc.4",
+    "@vue/reactivity": "3.6.0-rc.4",
+    "@vue/runtime-core": "3.6.0-rc.4",
+    "@vue/runtime-dom": "3.6.0-rc.4",
+    "@vue/runtime-vapor": "3.6.0-rc.4",
+    "@vue/server-renderer": "3.6.0-rc.4",
+    "@vue/shared": "3.6.0-rc.4",
+    "@vue/compat": "3.6.0-rc.4"
+  }
+}
